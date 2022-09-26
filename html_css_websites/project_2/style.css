@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(192, 191, 191);
+    position: relative;  
+}
+.class {
+    display: flex;
+    align-items: center;
+}
+#id1 {
+     margin-bottom: 15px;
+}
+.class1b , .class2b , .class4b , .class5b{
+    margin-left: 40px;
+}
+#fname , #lname , #email , #job , #City , #Pincode , #date , #cv {
+    width: 250px;
+    height: 30px;
+    padding-left: 5px;
+    margin-top: 7px;
+    border-radius: 4px;
+    opacity: 0.6;
+    border-width: 1px;
+}
+
+#button {
+    background-color: red;
+    padding: 7px 10px 7px 10px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    margin-left: 460px;
+}
+
+#button:hover {
+    background-color: rgb(185, 212, 203);
+    border:solid 2px red;
+    color: black;
+}
+#cv {
+    border: solid 1px;
+    padding-top: 6px;
+    height: 34px;
+}
+#class {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#address {
+      opacity: 0.6;
+      border-radius: 2px;
+      
+}
+.form {
+    width: 570px;
+    height: 530px;
+    padding-left: 25px;
+    border: none 2px blue;
+    background-color: white;
+    position: absolute;
+    top: 40px;
+    left: 380px;
+    border-radius: 10px;
+}
+span {
+    font-size: 20px;
+}
+
