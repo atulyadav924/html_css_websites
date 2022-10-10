@@ -2,7 +2,7 @@ body {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    width: 1366px;
+    width: 100%;
     
 }
 .header {
@@ -17,6 +17,7 @@ body {
     z-index: 10;
     background-color: white;
 }
+
 .header-menu > div {
     height: 5px;
     width: 30px;
@@ -27,8 +28,8 @@ body {
 }
 .main {
     display: flex;
-    padding-top: 40px;
-    padding-left: 80px;
+    width: 100%;
+    justify-content: center;
 }
 .main-second-half {
     display: flex;
@@ -71,7 +72,7 @@ body {
 .section {
     display: flex;
     margin: 50px 100px;
-   /* justify-items: center; */
+    justify-content: center;
 }
 .section-part {
     display: flex;
@@ -95,19 +96,27 @@ body {
     opacity: 0.8;
     width: 280px;
 }
+
+ #portion {
+
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+
+}
+
+
 .horizontal-rule {
     border: solid 1px rgb(179, 0, 255);
     width: 1200px;
-    margin-left: 70px;
     margin-bottom: 50px;
 }
+
 #button button{
     border: none ;
     background-color: rgb(50, 174, 50);
     color: white;
     padding: 7px 10px;
-    position: relative;
-    left: 600px;
     font-size: 16px;
     margin-bottom: 16px;
 }
@@ -116,8 +125,7 @@ body {
 
     font-weight: bold;
     font-size: 24px;
-    position: relative;
-    left: 550px;
+    
 }
 
 .images-part {

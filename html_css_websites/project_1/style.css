@@ -8,12 +8,11 @@ body {
 
 /* Introduction*/ 
 .heading {
+
     display: flex;
-  /*  border: 1px solid red; */
-    position: absolute;
-    top: 110px;
-    left: 225px;
-    
+    justify-content: center;  
+    margin-top: 100px;
+
 }
 
 .heading .image  img {
@@ -21,19 +20,24 @@ body {
     border-radius: 180px;
     width: 300px;
 }
-.header-text {
+
+
+.header-text{
     
    /* border: 1px solid blue; */
     font-weight: bold;
     margin-left: 55px;
-    
 }
+
+
+
 .text1 {
    color: rgb(13, 16, 75);
    font-size: 50px;
    white-space: nowrap;
    margin-top: 225px;
 }
+
 
 .text2 {
     color: black;
@@ -46,47 +50,74 @@ body {
 
 
 .main {
-   position: absolute;
-   top: 470px;
-   left: 225px;
-   right: 250px;
+   display: flex;
+   flex-direction: column; 
+   width: 100vw;
+   margin-top: 8vh;
 }
 
 .main1 {
     font-size: 70px;
+    align-self: center;
+    position: relative;
+    right: 175px;
+
 }
 
 .main2 {
     font-size: 20px;
     line-height: 30px;
-   /* border: 1px solid red;*/
     margin-top: 40px;
     text-align: justify;
     letter-spacing: 1.2px;
-}
+    align-self: center;
+    width: 60%;
+} 
 
 /* Last section */
 
 .section {
-    position: absolute;
+    /* position: absolute;
     top: 950px;
-    left: 225px;
+    left: 225px; */
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    
+
 }
 
-.footer {
-    position: absolute;
-    top: 1280px;
-    left: 780px;
-    /*border: 1px solid red;*/
-}
-
-.section-div2 ul li {
+.section-div2 {
     margin-top: 14px;
+    align-self: center;
+    
 }
+
+
 .section-div1 {
     font-weight: bold;
     font-size: 18px;
+    align-self: center;
+    position: relative;
+    right: 415px;
+    margin-top: 40px;
+    margin-bottom: 10px;
 }
+
+.section-div2 ul li {
+    position: relative;
+    right: 90px;
+    margin-top: 14px; 
+}
+
+
+
+.footer {
+
+    margin-left: 610px;
+    text-align: center;
+
+} 
 
 
 
